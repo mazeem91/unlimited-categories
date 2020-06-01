@@ -2,9 +2,11 @@
 
 ## Installation
 
+### Check The Server Requirements below and make sure all required PHP extensions are intalled and enabled then:
+
 1. Just `composer install`
 2. Copy `env` to `.env`
-3. Edit DB config or use the default sqlite DB
+3. Edit DB config in the `.env` or leave the default `sqlite` DB config
 4. Run `php spark migrate`
 5. Run `php spark db:seed` then enter `SimpleSeeder`
 
